@@ -69,10 +69,10 @@ F 3 "https://www.pololu.com/product/2980/pictures" H 6150 4250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Sensor_Optical:LDR03 R1
+L Sensor_Optical:LDR03 Bottom_Right
 U 1 1 6328EFEE
 P 1850 1450
-F 0 "R1" H 1920 1496 50  0000 L CNN
+F 0 "Bottom_Right" H 1920 1496 50  0000 L CNN
 F 1 "LDR03" H 1920 1405 50  0000 L CNN
 F 2 "OptoDevice:R_LDR_10x8.5mm_P7.6mm_Vertical" V 2025 1450 50  0001 C CNN
 F 3 "http://www.elektronica-componenten.nl/WebRoot/StoreNL/Shops/61422969/54F1/BA0C/C664/31B9/2173/C0A8/2AB9/2AEF/LDR03IMP.pdf" H 1850 1400 50  0001 C CNN
@@ -80,10 +80,10 @@ F 3 "http://www.elektronica-componenten.nl/WebRoot/StoreNL/Shops/61422969/54F1/B
 	1    0    0    -1  
 $EndComp
 $Comp
-L Sensor_Optical:LDR03 R3
+L Sensor_Optical:LDR03 Top_Right
 U 1 1 63290687
 P 2400 1450
-F 0 "R3" H 2470 1496 50  0000 L CNN
+F 0 "Top_Right" H 2470 1496 50  0000 L CNN
 F 1 "LDR03" H 2470 1405 50  0000 L CNN
 F 2 "OptoDevice:R_LDR_10x8.5mm_P7.6mm_Vertical" V 2575 1450 50  0001 C CNN
 F 3 "http://www.elektronica-componenten.nl/WebRoot/StoreNL/Shops/61422969/54F1/BA0C/C664/31B9/2173/C0A8/2AB9/2AEF/LDR03IMP.pdf" H 2400 1400 50  0001 C CNN
@@ -91,10 +91,10 @@ F 3 "http://www.elektronica-componenten.nl/WebRoot/StoreNL/Shops/61422969/54F1/B
 	1    0    0    -1  
 $EndComp
 $Comp
-L Sensor_Optical:LDR03 R5
+L Sensor_Optical:LDR03 Top_Left
 U 1 1 63291726
 P 2900 1450
-F 0 "R5" H 2970 1496 50  0000 L CNN
+F 0 "Top_Left" H 2970 1496 50  0000 L CNN
 F 1 "LDR03" H 2970 1405 50  0000 L CNN
 F 2 "OptoDevice:R_LDR_10x8.5mm_P7.6mm_Vertical" V 3075 1450 50  0001 C CNN
 F 3 "http://www.elektronica-componenten.nl/WebRoot/StoreNL/Shops/61422969/54F1/BA0C/C664/31B9/2173/C0A8/2AB9/2AEF/LDR03IMP.pdf" H 2900 1400 50  0001 C CNN
@@ -102,10 +102,10 @@ F 3 "http://www.elektronica-componenten.nl/WebRoot/StoreNL/Shops/61422969/54F1/B
 	1    0    0    -1  
 $EndComp
 $Comp
-L Sensor_Optical:LDR03 R7
+L Sensor_Optical:LDR03 Bottom_Left
 U 1 1 63292EC0
 P 3400 1450
-F 0 "R7" H 3470 1496 50  0000 L CNN
+F 0 "Bottom_Left" H 3470 1496 50  0000 L CNN
 F 1 "LDR03" H 3470 1405 50  0000 L CNN
 F 2 "OptoDevice:R_LDR_10x8.5mm_P7.6mm_Vertical" V 3575 1450 50  0001 C CNN
 F 3 "http://www.elektronica-componenten.nl/WebRoot/StoreNL/Shops/61422969/54F1/BA0C/C664/31B9/2173/C0A8/2AB9/2AEF/LDR03IMP.pdf" H 3400 1400 50  0001 C CNN
@@ -296,11 +296,11 @@ Connection ~ 1850 1700
 Wire Wire Line
 	1850 1700 1850 1850
 Text GLabel 2250 1700 0    50   Input ~ 0
-A0
+A1
 Text GLabel 2750 1700 0    50   Input ~ 0
-A0
+A2
 Text GLabel 3250 1700 0    50   Input ~ 0
-A0
+A3
 Wire Wire Line
 	2250 1700 2400 1700
 Connection ~ 2400 1700
